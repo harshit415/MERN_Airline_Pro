@@ -33,15 +33,17 @@ function App() {
 
 
       </Route>
-      <Route path="dashboard" element={<Dashboard/>}>
-  
-    <Route path = "myBookings"  element = {<MyBookings/>  }/>
      
-    </Route>
-   
     </Routes>
+    <Routes>
      
-
+    <Route path="dashboard" element={<Dashboard/>}>
+  
+  <Route path = "myBookings"  element = {<MyBookings/>  }/>
+   
+  </Route>
+  </Routes>
+ 
 
    
 
